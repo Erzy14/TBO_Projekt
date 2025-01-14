@@ -1,0 +1,11 @@
+{
+  "action": "CreateSubmissionRequest",
+  "appResource": "/opt/app/demo-app.jar",
+  "clientSparkVersion": "3.1.2",
+  "mainClass": "com.example.App",
+  "sparkProperties": {
+    "spark.executor.memory": "1g",
+    "spark.driver.memory": "1g",
+    "spark.master": "spark://spark-master:7077"
+  }
+}
